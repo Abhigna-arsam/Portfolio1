@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="this is desc">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="aurthor" content="sheruldhanushka ">
+    <link rel="stylesheet" href="../normalize.css" >
+    <title>Certficate</title>
+
+    <style>
+
+        *{
+            font-family: "Urbanist", sans-serif,"IBM Plex Sans";
+            font-optical-sizing: auto;
+            /*font-weight: <weight>;*/
+            font-style: normal;
+            /*background-color: var(--bg-color);*/
+            color: #FFFFFFFF;
+            box-sizing: border-box;
+        }
+
+        h1{
+            margin-top: 2rem;
+            margin-bottom: 0.9rem;
+            font-size: 3rem;
+            font-weight: bold;
+            /*margin: 2px 0;*/
+            color: var(--text-color);
+            text-align: center;
+        }
+
+        h3{
+            font-size: 2rem;
+            margin-left: 2.5rem;
+        }
+
+        h5{
+            font-size: 0.9rem;
+            margin-top: 1rem;
+            margin-left: 0.5rem;
+        }
+
+        body{
+            overflow-x: hidden ;
+            background: radial-gradient(circle at top left , #202020, rgb(0, 83, 101),transparent 20%, transparent 100%) fixed, radial-gradient(circle at bottom right, #202020, rgb(0, 83, 101),transparent 15%, transparent 100%) fixed !important;
+            background-color: #000000 !important;
+        }
+
+        .box-container-certificate{
+            display: grid;
+            grid-template-columns:repeat(3,1fr);
+            /*grid-gap: 2.5rem;*/
+            align-items: center;
+            justify-content: center;
+        }
+
+        .box-certificate{
+            /* border: 0.1rem white solid;
+            border-radius: 1rem;
+            width: 17rem;
+            height: 15rem;
+            margin: auto;
+            display: flex;
+
+            align-items: center;
+            flex-direction: column;
+            background-color: rgba(69, 69, 69, 0.19); */
+            border: 0.1rem solid white;
+    border-radius: 1rem;
+    width: 17rem;
+    height: 15rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(69, 69, 69, 0.19);
+    padding: 1rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+
+
+        }
+
+        .box-certificate>img{
+            width: 99%;
+            margin: 0.1rem;
+            border-radius: 1rem;
+            align-self: center;
+        }
+
+        @media all and (max-width: 1000px) {
+            html{
+                font-size: 75%;
+            }
+
+        }
+
+        @media all and (max-width: 768px) {
+            .box-container-certificate {
+                display: grid;
+                grid-template-columns:repeat(2, 1fr);
+                gap: 2rem;
+            }
+
+        }
+
+        @media all and (max-width: 480px) {
+            .box-container-certificate {
+                display: grid;
+                grid-template-columns:repeat(1, 1fr);
+                gap: 2rem;
+            }
+
+        }
+
+    </style>
+</head>
+
+<body>
+<h1>CERTIFICATES</h1>
+
+<h3>Infosys Springboard</h3>
+    <div class="box-container-certificate">
+        <div class="box-certificate">
+            <!-- <a href="https://drive.google.com/file/d/1jBQqG5lfVPjgfsJCewykF-R3PV0TWlmc/view" target="_blank"> -->
+            <img src="Java_Essentials.png">
+            <h5><a href="https://drive.google.com/file/d/1jBQqG5lfVPjgfsJCewykF-R3PV0TWlmc/view" target="_blank">
+                Java Essentials
+            </a></h5>
+        </div>
+
+        <div class="box-certificate">
+            <img src="Frontend_Infosys.png">
+            
+            <!-- <h5> </h5> -->
+            <h5><a href="https://drive.google.com/file/d/19OOue29cSIIQyeISlhnYBRDD5rcH6QPE/view" target="_blank">
+                Front-end Developer certification
+            </a></h5>
+        </div>
+
+        <!-- <div class="box-certificate">
+            <img src="front-endWebDevelopment.png">
+            <h5>Front End Web Development</h5>
+        </div> -->
+
+
+
+    </div>
+
+
+
+<h3>Cisco</h3>
+<div class="box-container-certificate">
+    <div class="box-certificate">
+        <img src="Cla.png">
+        <h5><a href="https://drive.google.com/file/d/1ojlKAiEyUkQtcpe2odbCu3rLByqQ8Cq7/view" target="_blank">
+            Programming Essentials in C
+        </a></h5>
+    </div>
+
+    <div class="box-certificate">
+        <img src="pcap_cisco.png">
+        <h5><a href="https://drive.google.com/file/d/1e6rYzQARvLqM5_3ye8M_2RleZlTZuCs_/view" target="_blank">
+            Programming Essentials in Python
+        </a></h5>
+    </div>
+
+</div>
+
+<h3>Oracle</h3>
+<div class="box-container-certificate">
+    <div class="box-certificate" >
+        <img src="DBMS.png">
+        <h5><a href="https://drive.google.com/file/d/1Mp5L6m_iG1ds4FOTDvbSmaqrIfrJNqJL/view" target="_blank">
+            database Programming with SQL
+        </a></h5>
+    </div>
+</div>
+
+
+
+</body>
+</html>
